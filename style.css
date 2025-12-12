@@ -13,6 +13,16 @@ body {
   color: #222;
 }
 
+body {
+  background: linear-gradient(to right,
+    #ffd7ef 0%,
+    #f4ecff 10%,
+    #f4ecff 90%,
+    #ffd7ef 100%
+  );
+  background-attachment: fixed;
+}
+
 /* Page layout */
 main {
   max-width: 900px;
