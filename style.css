@@ -201,6 +201,11 @@ h1.site-title {
   border: 2px solid #ffbde3;
 }
 
+.project-card {
+  border: 2px solid black;
+  box-shadow: 6px 6px 0px black;
+}
+
 /* Card hover animation */
 .project-card:hover {
   transform: translateY(-8px) scale(1.05);
