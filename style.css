@@ -206,6 +206,17 @@ h1.site-title {
   box-shadow: 6px 6px 0px black;
 }
 
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Card hover animation */
 .project-card:hover {
   transform: translateY(-8px) scale(1.05);
